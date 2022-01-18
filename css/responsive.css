@@ -1,0 +1,71 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* header part */
+.main-menu ul li {
+	margin-left: 10px;
+}
+.main-menu ul li a {
+	font-size: 16px;
+	
+}
+/* banner part */
+.banner-text h2 {
+	font-size: 44px;
+	
+}
+
+/*  */
+.symp-main img {
+	width: 100%;
+	padding-top: 50px;
+}
+/*  */
+.thing-area {
+	margin-bottom: 50px;
+}
+/* doctors part */
+.doctor-card {
+	margin-bottom: 20px;
+}
+
+/*  */
+.pl-25 {
+	padding-left: 0px;
+}
+.middle img{
+    width: 115%;
+    margin-top: 50px;
+}
+/* footer part */
+.footer-para p {
+	padding-right: 0px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
